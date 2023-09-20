@@ -25,7 +25,7 @@ namespace SoFunny.FunnySDK.IAP
         /// <summary>
         /// 支付人类型
         /// </summary>
-        public IAPPayer() { }
+        internal IAPPayer() { }
 
         /// <summary>
         /// 支付人类型

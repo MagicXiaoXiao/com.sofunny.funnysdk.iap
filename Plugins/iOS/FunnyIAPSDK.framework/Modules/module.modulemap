@@ -1,0 +1,11 @@
+framework module FunnyIAPSDK {
+  umbrella header "FunnyIAPSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FunnyIAPSDK.Swift {
+  header "FunnyIAPSDK-Swift.h"
+  requires objc
+}

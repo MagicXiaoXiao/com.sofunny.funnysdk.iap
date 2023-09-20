@@ -3,40 +3,77 @@ using Newtonsoft.Json;
 
 namespace SoFunny.FunnySDK.IAP
 {
+    /* 转换为 JSON 后格式如下
+     {
+	    "order": {
+		"payment": 1,
+		"product": {
+			"id": "com.sofunny.product",
+			"name": ""
+		},
+		"payer": {
+			"id": "user_id",
+			"name": "user_name",
+			"info": "server_area"
+		},
+		"quantity": 1,
+		"extra": ""
+	    }
+     }
+     */
+
     /// <summary>
     /// 订单类型
     /// </summary>
     [JsonObject(MemberSerialization.OptIn)]
     public class IAPOrder
     {
+
+        [JsonProperty("product")]
+        private readonly IAPProduct _product;
         /// <summary>
         /// 商品
         /// </summary>
-        [JsonProperty("product")]
-        public IAPProduct Product { get; internal set; }
+        public IAPProduct Product { get { return _product; } }
+
+
+        [JsonProperty("payer")]
+        private readonly IAPPayer _payer;
         /// <summary>
         /// 支付人
         /// </summary>
-        [JsonProperty("payer")]
-        public IAPPayer Payer { get; internal set; }
+        public IAPPayer Payer { get { return _payer; } }
+
+        [JsonProperty("payment")]
+        private readonly int _paymentValue;
         /// <summary>
         /// 支付方式
         /// </summary>
-        [JsonProperty("payment")]
-        internal int paymentValue;
-        public PaymentType Payment { get; internal set; }
+        public PaymentType Payment { get { return (PaymentType)_paymentValue; } }
+
+        [JsonProperty("quantity")]
+        private readonly int _quantity;
         /// <summary>
         /// 购买数量，默认为 1
         /// </summary>
-        [JsonProperty("quantity")]
-        public int Quantity { get; internal set; }
+        public int Quantity { get { return _quantity; } }
+
+        [JsonProperty("extra")]
+        private readonly string _extra;
         /// <summary>
         /// 附加说明，最多 150 字符
         /// </summary>
-        [JsonProperty("extra")]
-        public string Extra { get; internal set; }
+        public string Extra { get { return _extra; } }
 
-        private IAPOrder() { }
+
+        internal IAPOrder(IAPProduct product, IAPPayer payer, PaymentType payment, int quantity = 1, string extra = "")
+        {
+            _product = product;
+            _payer = payer;
+            _paymentValue = (int)payment;
+            _quantity = quantity;
+            _extra = extra;
+        }
 
         /// <summary>
         /// 创建订单
@@ -49,16 +86,7 @@ namespace SoFunny.FunnySDK.IAP
         /// <returns></returns>
         public static IAPOrder Create(IAPProduct product, IAPPayer payer, PaymentType payment, int quantity = 1, string extra = "")
         {
-            IAPOrder order = new IAPOrder();
-
-            order.Product = product.Clone();
-            order.Payer = payer.Clone();
-            order.Payment = payment;
-            order.paymentValue = (int)payment;
-            order.Quantity = quantity;
-            order.Extra = string.Copy(extra);
-
-            return order;
+            return new IAPOrder(product.Clone(), payer.Clone(), payment, quantity, extra);
         }
 
     }
