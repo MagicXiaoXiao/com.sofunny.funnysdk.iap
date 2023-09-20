@@ -15,10 +15,12 @@ namespace SoFunny.FunnySDK.IAP
         [JsonProperty("order_id")]
         public string Id { get; private set; }
 
-        internal IAPReceipt()
+        [JsonConstructor]
+        internal IAPReceipt(string receiptId = "")
         {
-
+            Id = receiptId;
         }
     }
+
 }
 

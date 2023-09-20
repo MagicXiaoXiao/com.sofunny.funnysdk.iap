@@ -1,6 +1,5 @@
 ﻿using System;
 using Newtonsoft.Json;
-using TreeEditor;
 
 namespace SoFunny.FunnySDK.IAP
 {

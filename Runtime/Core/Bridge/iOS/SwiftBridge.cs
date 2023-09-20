@@ -12,7 +12,13 @@ namespace SoFunny.FunnySDK.IAP
     {
         internal SwiftBridge()
         {
-
+            /* Tips: 
+             * Unity iOS Bug 如不在代码中指定一次构造，
+             * 则编译后，运行时使用 JsonConvert.DeserializeObject<IAPReceipt>(json);
+             * 会抛出异常，找不到 IAPReceipt 的构造函数。
+             * 故在此主动调用一次空构造。
+             */
+            new IAPReceipt();
         }
 
         public void CallNavtive(string method)
@@ -39,21 +45,8 @@ namespace SoFunny.FunnySDK.IAP
         {
             SwiftCallAndBack.Builder(method).AddCallbackHandler((result, json) =>
             {
-                if (result)
-                {
-                    var model = JsonConvert.DeserializeObject<T>(json);
-                    callback?.Invoke(model, null);
-                }
-                else
-                {
-                    var errorJson = JObject.Parse(json);
-                    int code = errorJson.Value<int>("code");
-                    string message = errorJson.Value<string>("message");
+                HandlerBridgeCallback(result, json, callback);
 
-                    var error = new FunnyIAPError(code, message);
-
-                    callback?.Invoke(default, error);
-                }
             }).Invoke();
         }
 
@@ -61,22 +54,36 @@ namespace SoFunny.FunnySDK.IAP
         {
             SwiftCallAndBack.Builder(method).Add(parameters).AddCallbackHandler((result, json) =>
             {
-                if (result)
+                HandlerBridgeCallback(result, json, callback);
+
+            }).Invoke();
+        }
+
+        private void HandlerBridgeCallback<T>(bool result, string json, BridgeCompletedHandler<T> callback)
+        {
+            if (result)
+            {
+                try
                 {
                     var model = JsonConvert.DeserializeObject<T>(json);
                     callback?.Invoke(model, null);
                 }
-                else
+                catch (JsonException ex)
                 {
-                    var errorJson = JObject.Parse(json);
-                    int code = errorJson.Value<int>("code");
-                    string message = errorJson.Value<string>("message");
-
-                    var error = new FunnyIAPError(code, message);
-
-                    callback?.Invoke(default, error);
+                    Logger.LogError($"数据解析异常,{ex.Message}");
+                    callback?.Invoke(default, FunnyIAPError.InternalDataError);
                 }
-            }).Invoke();
+            }
+            else
+            {
+                var errorJson = JObject.Parse(json);
+                int code = errorJson.Value<int>("code");
+                string message = errorJson.Value<string>("message");
+
+                var error = new FunnyIAPError(code, message);
+
+                callback?.Invoke(default, error);
+            }
         }
 
         public void RegisterEventMessage()
