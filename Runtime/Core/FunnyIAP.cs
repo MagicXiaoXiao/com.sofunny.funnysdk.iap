@@ -8,8 +8,9 @@ namespace SoFunny.FunnySDK.IAP
     {
         static FunnyIAP()
         {
-            Service = new NativeBridgeService();
-            GooglePay = new GooglePayService();
+            NativeBridgeService native = new NativeBridgeService();
+            Service = native;
+            GooglePay = new GooglePayService(native);
         }
 
         /// <summary>
