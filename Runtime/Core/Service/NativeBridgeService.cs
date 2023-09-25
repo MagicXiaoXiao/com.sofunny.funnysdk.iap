@@ -77,6 +77,11 @@ namespace SoFunny.FunnySDK.IAP
             Bridge.CallNavtive("PreLoadProductInfo", new Dictionary<string, object>() { { "products", productIdArray } });
         }
 
+        internal void SetNativeSaveData(string key, string value)
+        {
+            Bridge.CallNavtive("SaveData", new Dictionary<string, object>() { { key, value } });
+        }
+
     }
 }
 
