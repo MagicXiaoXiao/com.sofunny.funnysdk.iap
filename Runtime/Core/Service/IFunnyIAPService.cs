@@ -7,7 +7,7 @@ namespace SoFunny.FunnySDK.IAP
         /// <summary>
         /// 遗漏的支付凭据处理事件（因异常情况导致遗漏已支付凭据）
         /// </summary>
-        event Action<IAPReceipt> OnMissReceiptHandlerEvents;
+        event Action<IAPReceipt[]> OnMissReceiptHandlerEvents;
 
         /// <summary>
         /// 预加载商品信息
@@ -29,6 +29,11 @@ namespace SoFunny.FunnySDK.IAP
         /// <param name="onCancelHandler">支付取消处理</param>
         /// <param name="onFailureHandler">支付失败处理</param>
         void Execute(IAPOrder order, Action<IAPReceipt, IAPOrder> onSuccessHandler, Action onCancelHandler, Action<FunnyIAPError> onFailureHandler);
+
+        /// <summary>
+        /// 检查是否有遗漏的凭据。如有则会触发 OnMissReceiptHandlerEvents 事件
+        /// </summary>
+        void CheckMissReceiptQueue();
 
     }
 }

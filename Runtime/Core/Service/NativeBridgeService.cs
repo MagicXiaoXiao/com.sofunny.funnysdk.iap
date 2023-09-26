@@ -23,18 +23,26 @@ namespace SoFunny.FunnySDK.IAP
 
         private void Setup()
         {
+            // 监听遗漏的凭据通知
             NotificationCenterService.Default.AddObserver(this, "com.funny.iap.miss.receipt", (value) =>
             {
-                if (value.TryGet<IAPReceipt>(out var receipt))
+                if (value.TryGet<IAPReceipt[]>(out var receiptArray)) // 获遗漏的取凭据数组
                 {
-                    OnMissReceiptHandlerEvents?.Invoke(receipt);
+                    if (receiptArray.Length > 0)
+                    {
+                        OnMissReceiptHandlerEvents?.Invoke(receiptArray);
+                    }
+                }
+                else
+                {
+                    Logger.LogVerbose($"遗漏的凭据组解析失败 - {value.RawValue}");
                 }
             });
 
             Bridge.RegisterEventMessage();
         }
 
-        public event Action<IAPReceipt> OnMissReceiptHandlerEvents;
+        public event Action<IAPReceipt[]> OnMissReceiptHandlerEvents;
 
         public void Execute(IAPOrder order, Action<IAPReceipt, IAPOrder> onSuccessHandler, Action onCancelHandler, Action<FunnyIAPError> onFailureHandler)
         {
@@ -82,6 +90,10 @@ namespace SoFunny.FunnySDK.IAP
             Bridge.CallNavtive("SaveData", new Dictionary<string, object>() { { key, value } });
         }
 
+        public void CheckMissReceiptQueue()
+        {
+            Bridge.CallNavtive("CheckMissReceipt");
+        }
     }
 }
 
