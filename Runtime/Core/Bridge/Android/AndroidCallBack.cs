@@ -11,7 +11,7 @@ namespace SoFunny.FunnySDK.IAP
         private readonly BridgeCompletedHandler<T> CallbackHandler;
         private readonly SynchronizationContext OriginalContext;
 
-        internal AndroidCallBack(BridgeCompletedHandler<T> handler) : base("") // 指定回调处理类路径
+        internal AndroidCallBack(BridgeCompletedHandler<T> handler) : base("com.xmfunny.funnysdk.unitywrapper.internal.unity.FunnyUnityCallBack") // 指定回调处理类路径
         {
             OriginalContext = SynchronizationContext.Current;
             CallbackHandler = handler;

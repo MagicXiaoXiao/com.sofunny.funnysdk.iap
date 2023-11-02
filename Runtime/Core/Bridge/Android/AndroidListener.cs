@@ -9,7 +9,7 @@ namespace SoFunny.FunnySDK.IAP
     {
         private readonly SynchronizationContext OriginalContext;
 
-        internal AndroidListener() : base("") // 指定 Android 事件监听类路径
+        internal AndroidListener() : base("com.xmfunny.funnysdk.unitywrapper.listener.FunnySdkListener") // 指定 Android 事件监听类路径
         {
             OriginalContext = SynchronizationContext.Current;
         }
