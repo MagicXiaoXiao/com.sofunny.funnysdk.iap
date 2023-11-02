@@ -15,7 +15,7 @@ namespace SoFunny.FunnySDK.IAP
 
         internal AndroidBridge()
         {
-            AndroidWapper = new AndroidJavaObject(""); // 指定桥接类名路径
+            AndroidWapper = new AndroidJavaObject("com.xmfunny.funnysdk.unitywrapper.internal.unity.FunnySdkWrapper4UnityPay"); // 指定桥接类名路径
 
             // 如需触发初始化，则自行在此调用自定义桥接方法
         }
