@@ -8,6 +8,7 @@ namespace SoFunny.FunnySDK.IAP
     internal class NativeBridgeService : IFunnyIAPService
     {
         private readonly IBridgeMethods Bridge;
+        private bool _paying = false;
 
         internal NativeBridgeService()
         {
@@ -46,10 +47,23 @@ namespace SoFunny.FunnySDK.IAP
 
         public void Execute(IAPOrder order, Action<IAPReceipt, IAPOrder> onSuccessHandler, Action onCancelHandler, Action<FunnyIAPError> onFailureHandler)
         {
+            if (_paying)
+            {
+                Logger.LogWarning("已有一项交易正在进行中，请等待完成后再发起。");
+                return;
+            }
+
             if (Application.internetReachability == NetworkReachability.NotReachable)
             {
                 onFailureHandler?.Invoke(FunnyIAPError.NetworkError);
                 return;
+            }
+
+            _paying = true;
+
+            if (order.Payment.type == PaymentType.GooglePay) // GooglePay 则先设置 PublicKey
+            {
+                SetNativeSaveData("com.sofunny.funnyiap.googlepay.publickey", order.Payment.base64EncodedPublicKey);
             }
 
             Bridge.CallNavtive<IAPReceipt>(
@@ -57,6 +71,8 @@ namespace SoFunny.FunnySDK.IAP
                 new Dictionary<string, object>() { { "order", order } },
                 (receipt, error) =>
                 {
+                    _paying = false;
+
                     if (error is null) // 成功处理
                     {
                         onSuccessHandler?.Invoke(receipt, order);
@@ -87,7 +103,9 @@ namespace SoFunny.FunnySDK.IAP
 
         internal void SetNativeSaveData(string key, string value)
         {
+#if UNITY_ANDROID
             Bridge.CallNavtive("SaveData", new Dictionary<string, object>() { { key, value } });
+#endif
         }
 
         public void CheckMissReceiptQueue()

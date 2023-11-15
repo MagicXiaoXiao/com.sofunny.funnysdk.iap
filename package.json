@@ -1,6 +1,6 @@
 {
   "name": "com.sofunny.funnysdk.iap",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "displayName": "FunnyIAP",
   "description": "\u771f\u6709\u8da3\u5e73\u53f0\u6e38\u620f\u5185\u8d2d SDK \u63a5\u5165\u5305",
   "unity": "2019.3",

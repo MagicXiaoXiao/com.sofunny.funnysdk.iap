@@ -5,7 +5,7 @@ namespace SoFunny.FunnySDK.IAP
     /// <summary>
     /// 支付方式
     /// </summary>
-    public enum PaymentType
+    internal enum PaymentType
     {
         /// <summary>
         /// 苹果内购
