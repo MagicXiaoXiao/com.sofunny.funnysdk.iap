@@ -10,7 +10,6 @@ namespace SoFunny.FunnySDK.IAP
         {
             NativeBridgeService native = new NativeBridgeService();
             Service = native;
-            GooglePay = new GooglePayService(native);
         }
 
         /// <summary>
@@ -18,10 +17,6 @@ namespace SoFunny.FunnySDK.IAP
         /// </summary>
         public static IFunnyIAPService Service { get; private set; }
 
-        /// <summary>
-        /// GooglePay 相关配置模块
-        /// </summary>
-        public static IGooglePayService GooglePay { get; private set; }
     }
 }
 

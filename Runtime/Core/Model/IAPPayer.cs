@@ -33,11 +33,23 @@ namespace SoFunny.FunnySDK.IAP
         /// <param name="id">支付人编号（如，游戏角色唯一编号）</param>
         /// <param name="name">支付人名称（如，游戏角色昵称）</param>
         /// <param name="serverInfo">支付人服务器信息（如，游戏区服等）</param>
-        public IAPPayer(string id, string name, string serverInfo)
+        private IAPPayer(string id, string name, string serverInfo)
         {
             Id = id;
             Name = name;
             ServerInfo = serverInfo;
+        }
+
+        /// <summary>
+        /// 创建支付类型
+        /// </summary>
+        /// <param name="id">支付人编号（如，游戏角色唯一编号）</param>
+        /// <param name="name">支付人名称（如，游戏角色昵称）</param>
+        /// <param name="serverInfo">支付人服务器信息（如，游戏区服等）</param>
+        /// <returns></returns>
+        public static IAPPayer Create(string id, string name, string serverInfo)
+        {
+            return new IAPPayer(id, name, serverInfo);
         }
 
         internal IAPPayer Clone()
