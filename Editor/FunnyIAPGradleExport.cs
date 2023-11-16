@@ -25,7 +25,7 @@ namespace SoFunny.FunnySDK.IAP.Editor
             var unityLibraryGradle = new GradleConfig(unityLibraryGradleFile.FullName);
 
             var depNode = unityLibraryGradle.ROOT.FindChildNodeByName("dependencies");
-            depNode.AppendContentNode("implementation 'com.android.billingclient:billing-ktx:5.1.0'");
+            depNode.AppendContentNode("implementation 'com.android.billingclient:billing:5.2.1'");
             unityLibraryGradle.Save();
         }
     }
