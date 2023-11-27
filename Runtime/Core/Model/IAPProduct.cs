@@ -3,6 +3,9 @@ using Newtonsoft.Json;
 
 namespace SoFunny.FunnySDK.IAP
 {
+    /// <summary>
+    /// 商品数据
+    /// </summary>
     [JsonObject(MemberSerialization.OptIn)]
     public class IAPProduct
     {
@@ -10,22 +13,41 @@ namespace SoFunny.FunnySDK.IAP
         /// 商品编号（谷歌内购则为 SKU，苹果内购则为 ProductID）
         /// </summary>
         [JsonProperty("id")]
-        public string Id = "";
+        public string Id { get; internal set; }
+
         /// <summary>
         /// 商品名称
         /// </summary>
         [JsonProperty("name")]
-        public string Name = "";
+        public string Name { get; internal set; }
 
         /// <summary>
-        /// 商品类型
+        /// 商品描述
         /// </summary>
-        /// <param name="id">谷歌内购则为 SKU，苹果内购则为 ProductID</param>
-        /// <param name="name">名称</param>
-        public IAPProduct(string id, string name = "")
+        [JsonProperty("description")]
+        public string Description { get; internal set; }
+
+        /// <summary>
+        /// 商品价格
+        /// </summary>
+        [JsonProperty("price")]
+        public string Price { get; internal set; }
+
+        /// <summary>
+        /// 商品显示价格 (包含货币符号)
+        /// </summary>
+        [JsonProperty("displayPrice")]
+        public string DisplayPrice { get; internal set; }
+
+        /// <summary>
+        /// 货币符号 如: $ 或 ¥ 等，根据地区变化
+        /// </summary>
+        [JsonProperty("symbol")]
+        public string CurrencySymbol { get; internal set; }
+
+        internal IAPProduct(string id)
         {
             Id = id;
-            Name = name;
         }
 
         internal IAPProduct Clone()

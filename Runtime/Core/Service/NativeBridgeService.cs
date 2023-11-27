@@ -61,11 +61,6 @@ namespace SoFunny.FunnySDK.IAP
 
             _paying = true;
 
-            if (order.Payment.type == PaymentType.GooglePay) // GooglePay 则先设置 PublicKey
-            {
-                SetNativeSaveData("com.sofunny.funnyiap.googlepay.publickey", order.Payment.base64EncodedPublicKey);
-            }
-
             Bridge.CallNavtive<IAPReceipt>(
                 "ExecutePayment",
                 new Dictionary<string, object>() { { "order", order } },
@@ -89,18 +84,6 @@ namespace SoFunny.FunnySDK.IAP
             );
         }
 
-        public void PreLoadProductInfo(IAPProduct[] products)
-        {
-            string[] array = products.Select(item => item.Id).Distinct().ToArray();
-
-            PreLoadProductInfo(array);
-        }
-
-        public void PreLoadProductInfo(string[] productIdArray)
-        {
-            Bridge.CallNavtive("PreLoadProductInfo", new Dictionary<string, object>() { { "products", productIdArray } });
-        }
-
         internal void SetNativeSaveData(string key, string value)
         {
 #if UNITY_ANDROID
@@ -111,6 +94,31 @@ namespace SoFunny.FunnySDK.IAP
         public void CheckMissReceiptQueue()
         {
             Bridge.CallNavtive("CheckMissReceipt");
+        }
+
+        public void FetchProductList(string[] productIdArray, Action<IAPProduct[]> onSuccessHandler, Action<FunnyIAPError> onFailureHandler)
+        {
+            if (productIdArray.Length <= 0)
+            {
+                onSuccessHandler?.Invoke(Array.Empty<IAPProduct>());
+                return;
+            }
+
+            Bridge.CallNavtive<IAPProduct[]>(
+                "FetchProductList",
+                new Dictionary<string, object> { { "ids", productIdArray } },
+                (list, error) =>
+                {
+                    if (error is null)
+                    {
+                        onSuccessHandler?.Invoke(list);
+                    }
+                    else
+                    {
+                        onFailureHandler?.Invoke(error);
+                    }
+                }
+            );
         }
     }
 }
