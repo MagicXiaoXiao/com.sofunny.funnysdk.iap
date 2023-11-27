@@ -10,16 +10,10 @@ namespace SoFunny.FunnySDK.IAP
         event Action<IAPReceipt[]> OnMissReceiptHandlerEvents;
 
         /// <summary>
-        /// 预加载商品信息
+        /// 获取商品列表信息
         /// </summary>
-        /// <param name="productIdArray">商品类型</param>
-        void PreLoadProductInfo(IAPProduct[] products);
-
-        /// <summary>
-        /// 预加载商品信息（谷歌内购则为 SKU，苹果内购则为 ProductID）
-        /// </summary>
-        /// <param name="productIdArray">SKU 或 ProductID</param>
-        void PreLoadProductInfo(string[] idArray);
+        /// <param name="onCompleteHandler"></param>
+        void FetchProductList(string[] productIdArray, Action<IAPProduct[]> onSuccessHandler, Action<FunnyIAPError> onFailureHandler);
 
         /// <summary>
         /// 发起支付

@@ -49,7 +49,7 @@ namespace SoFunny.FunnySDK.IAP
         /// <summary>
         /// 支付方式
         /// </summary>
-        public readonly IAPPayment Payment;
+        public readonly PaymentType Payment;
 
         [JsonProperty("quantity")]
         private readonly int _quantity;
@@ -66,12 +66,12 @@ namespace SoFunny.FunnySDK.IAP
         public string Extra { get { return _extra; } }
 
 
-        internal IAPOrder(IAPProduct product, IAPPayer payer, IAPPayment payment, int quantity = 1, string extra = "")
+        internal IAPOrder(IAPProduct product, IAPPayer payer, PaymentType payment, int quantity = 1, string extra = "")
         {
             _product = product;
             _payer = payer;
             Payment = payment;
-            _paymentValue = (int)payment.type;
+            _paymentValue = (int)payment;
             _quantity = quantity;
             _extra = extra;
         }
@@ -79,15 +79,15 @@ namespace SoFunny.FunnySDK.IAP
         /// <summary>
         /// 创建订单
         /// </summary>
-        /// <param name="productID">商品编号</param>
+        /// <param name="product">商品信息</param>
         /// <param name="payer">支付人</param>
         /// <param name="payment">支付方式</param>
         /// <param name="quantity">购买数量，默认为 1 </param>
         /// <param name="extra">附加说明，最多 150 字符</param>
         /// <returns></returns>
-        public static IAPOrder Create(string productID, IAPPayer payer, IAPPayment payment, int quantity = 1, string extra = "")
+        public static IAPOrder Create(IAPProduct product, IAPPayer payer, PaymentType payment, int quantity = 1, string extra = "")
         {
-            return new IAPOrder(new IAPProduct(productID), payer.Clone(), payment.Clone(), quantity, extra);
+            return new IAPOrder(product.Clone(), payer.Clone(), payment, quantity, extra);
         }
     }
 }
