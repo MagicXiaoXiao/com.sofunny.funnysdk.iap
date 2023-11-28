@@ -3,7 +3,4429 @@
     "kind": "Root",
     "name": "TopLevel",
     "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAPPayer",
+        "printedName": "IAPPayer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPPayerV2idSSvp",
+            "mangledName": "$s11FunnyIAPSDK8IAPPayerV2idSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV2idSSvg",
+                "mangledName": "$s11FunnyIAPSDK8IAPPayerV2idSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPPayerV4nameSSvp",
+            "mangledName": "$s11FunnyIAPSDK8IAPPayerV4nameSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV4nameSSvg",
+                "mangledName": "$s11FunnyIAPSDK8IAPPayerV4nameSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPPayerV4infoSSvp",
+            "mangledName": "$s11FunnyIAPSDK8IAPPayerV4infoSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV4infoSSvg",
+                "mangledName": "$s11FunnyIAPSDK8IAPPayerV4infoSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPPayer",
+                "printedName": "FunnyIAPSDK.IAPPayer",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FunnyIAPSDK8IAPPayerVyACSS_S2Stcfc",
+            "mangledName": "$s11FunnyIAPSDK8IAPPayerVyACSS_S2Stcfc",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPPayer",
+                "printedName": "FunnyIAPSDK.IAPPayer",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FunnyIAPSDK8IAPPayerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FunnyIAPSDK8IAPPayerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK8IAPPayerV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FunnyIAPSDK8IAPPayerV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11FunnyIAPSDK8IAPPayerV",
+        "mangledName": "$s11FunnyIAPSDK8IAPPayerV",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAPOrder",
+        "printedName": "IAPOrder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "product",
+            "printedName": "product",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPProduct",
+                "printedName": "FunnyIAPSDK.IAPProduct",
+                "usr": "s:11FunnyIAPSDK10IAPProductV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV7productAA10IAPProductVvp",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV7productAA10IAPProductVvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IAPProduct",
+                    "printedName": "FunnyIAPSDK.IAPProduct",
+                    "usr": "s:11FunnyIAPSDK10IAPProductV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV7productAA10IAPProductVvg",
+                "mangledName": "$s11FunnyIAPSDK8IAPOrderV7productAA10IAPProductVvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payer",
+            "printedName": "payer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPPayer",
+                "printedName": "FunnyIAPSDK.IAPPayer",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV5payerAA8IAPPayerVvp",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV5payerAA8IAPPayerVvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IAPPayer",
+                    "printedName": "FunnyIAPSDK.IAPPayer",
+                    "usr": "s:11FunnyIAPSDK8IAPPayerV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV5payerAA8IAPPayerVvg",
+                "mangledName": "$s11FunnyIAPSDK8IAPOrderV5payerAA8IAPPayerVvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payment",
+            "printedName": "payment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV7paymentSivp",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV7paymentSivp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV7paymentSivg",
+                "mangledName": "$s11FunnyIAPSDK8IAPOrderV7paymentSivg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quantity",
+            "printedName": "quantity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV8quantitySivp",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV8quantitySivp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV8quantitySivg",
+                "mangledName": "$s11FunnyIAPSDK8IAPOrderV8quantitySivg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extra",
+            "printedName": "extra",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV5extraSSSgvp",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV5extraSSSgvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV5extraSSSgvg",
+                "mangledName": "$s11FunnyIAPSDK8IAPOrderV5extraSSSgvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPOrder",
+                "printedName": "FunnyIAPSDK.IAPOrder",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAPProduct",
+                "printedName": "FunnyIAPSDK.IAPProduct",
+                "usr": "s:11FunnyIAPSDK10IAPProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAPPayer",
+                "printedName": "FunnyIAPSDK.IAPPayer",
+                "usr": "s:11FunnyIAPSDK8IAPPayerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FunnyIAPSDK8IAPOrderVyAcA10IAPProductV_AA8IAPPayerVS2iSSSgtcfc",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderVyAcA10IAPProductV_AA8IAPPayerVS2iSSSgtcfc",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPOrder",
+                "printedName": "FunnyIAPSDK.IAPOrder",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK8IAPOrderV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FunnyIAPSDK8IAPOrderV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11FunnyIAPSDK8IAPOrderV",
+        "mangledName": "$s11FunnyIAPSDK8IAPOrderV",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_FunnyIAPInitializer",
+        "printedName": "_FunnyIAPInitializer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "registerComponent",
+            "printedName": "registerComponent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FunnyIAPSDK@objc(cs)_FunnyIAPInitializer(cm)registerComponent",
+            "mangledName": "$s11FunnyIAPSDK01_A14IAPInitializerC17registerComponentyyFZ",
+            "moduleName": "FunnyIAPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FunnyIAPSDK@objc(cs)_FunnyIAPInitializer",
+        "mangledName": "$s11FunnyIAPSDK01_A14IAPInitializerC",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAPReceipt",
+        "printedName": "IAPReceipt",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPReceiptV2idSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPReceiptV2idSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPReceiptV2idSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPReceiptV2idSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transactionIdentifier",
+            "printedName": "transactionIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPReceiptV21transactionIdentifierSSSgvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPReceiptV21transactionIdentifierSSSgvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPReceiptV21transactionIdentifierSSSgvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPReceiptV21transactionIdentifierSSSgvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPReceipt",
+                "printedName": "FunnyIAPSDK.IAPReceipt",
+                "usr": "s:11FunnyIAPSDK10IAPReceiptV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FunnyIAPSDK10IAPReceiptV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FunnyIAPSDK10IAPReceiptV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK10IAPReceiptV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FunnyIAPSDK10IAPReceiptV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11FunnyIAPSDK10IAPReceiptV",
+        "mangledName": "$s11FunnyIAPSDK10IAPReceiptV",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppPurchaseManager",
+        "printedName": "InAppPurchaseManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppPurchaseManager",
+                "printedName": "FunnyIAPSDK.InAppPurchaseManager",
+                "usr": "c:@M@FunnyIAPSDK@objc(cs)InAppPurchaseManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC7defaultACvpZ",
+            "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC7defaultACvpZ",
+            "moduleName": "FunnyIAPSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppPurchaseManager",
+                    "printedName": "FunnyIAPSDK.InAppPurchaseManager",
+                    "usr": "c:@M@FunnyIAPSDK@objc(cs)InAppPurchaseManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC7defaultACvgZ",
+                "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC7defaultACvgZ",
+                "moduleName": "FunnyIAPSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC5fetchyyShySSGF",
+            "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC5fetchyyShySSGF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(order:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IAPOrder",
+                "printedName": "FunnyIAPSDK.IAPOrder",
+                "usr": "s:11FunnyIAPSDK8IAPOrderV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<FunnyIAPSDK.IAPReceipt, FunnyIAPSDK.FunnyIAPError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<FunnyIAPSDK.IAPReceipt, FunnyIAPSDK.FunnyIAPError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAPReceipt",
+                        "printedName": "FunnyIAPSDK.IAPReceipt",
+                        "usr": "s:11FunnyIAPSDK10IAPReceiptV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC7execute5order17completionHandleryAA8IAPOrderV_ys6ResultOyAA10IAPReceiptVAA0A8IAPErrorOGctF",
+            "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC7execute5order17completionHandleryAA8IAPOrderV_ys6ResultOyAA10IAPReceiptVAA0A8IAPErrorOGctF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchProductList",
+            "printedName": "fetchProductList(ids:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([FunnyIAPSDK.IAPProduct]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FunnyIAPSDK.IAPProduct]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IAPProduct",
+                        "printedName": "FunnyIAPSDK.IAPProduct",
+                        "usr": "s:11FunnyIAPSDK10IAPProductV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC16fetchProductList3ids17completionHandlerySaySSG_ySayAA10IAPProductVGctF",
+            "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC16fetchProductList3ids17completionHandlerySaySSG_ySayAA10IAPProductVGctF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMissReceipt",
+            "printedName": "getMissReceipt()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FunnyIAPSDK.IAPReceipt]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IAPReceipt",
+                    "printedName": "FunnyIAPSDK.IAPReceipt",
+                    "usr": "s:11FunnyIAPSDK10IAPReceiptV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC14getMissReceiptSayAA10IAPReceiptVGyF",
+            "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC14getMissReceiptSayAA10IAPReceiptVGyF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializer",
+            "printedName": "initializer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK20InAppPurchaseManagerC11initializeryyF",
+            "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC11initializeryyF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FunnyIAPSDK@objc(cs)InAppPurchaseManager",
+        "mangledName": "$s11FunnyIAPSDK20InAppPurchaseManagerC",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FunnyModule",
+            "printedName": "FunnyModule",
+            "usr": "s:8FunnySDK0A6ModuleP",
+            "mangledName": "$s8FunnySDK0A6ModuleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAPProduct",
+        "printedName": "IAPProduct",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPProductV2idSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV2idSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPProductV2idSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPProductV2idSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPProductV4nameSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV4nameSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPProductV4nameSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPProductV4nameSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPProductV11descriptionSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV11descriptionSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPProductV11descriptionSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPProductV11descriptionSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPProductV5priceSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV5priceSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPProductV5priceSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPProductV5priceSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayPrice",
+            "printedName": "displayPrice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPProductV12displayPriceSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV12displayPriceSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPProductV12displayPriceSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPProductV12displayPriceSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currencyCode",
+            "printedName": "currencyCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK10IAPProductV12currencyCodeSSvp",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV12currencyCodeSSvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK10IAPProductV12currencyCodeSSvg",
+                "mangledName": "$s11FunnyIAPSDK10IAPProductV12currencyCodeSSvg",
+                "moduleName": "FunnyIAPSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IAPProduct",
+                "printedName": "FunnyIAPSDK.IAPProduct",
+                "usr": "s:11FunnyIAPSDK10IAPProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FunnyIAPSDK10IAPProductV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FunnyIAPSDK10IAPProductV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FunnyIAPSDK10IAPProductV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11FunnyIAPSDK10IAPProductV",
+        "mangledName": "$s11FunnyIAPSDK10IAPProductV",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FunnySDK",
+        "printedName": "FunnySDK",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FunnyIAPError",
+        "printedName": "FunnyIAPError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notLogIn",
+            "printedName": "notLogIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FunnyIAPError",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError",
+                    "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO8notLogInyA2CmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO8notLogInyA2CmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cancelledPayment",
+            "printedName": "cancelledPayment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FunnyIAPError",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError",
+                    "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO16cancelledPaymentyA2CmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO16cancelledPaymentyA2CmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "notPurchasePermission",
+            "printedName": "notPurchasePermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FunnyIAPError",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError",
+                    "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO21notPurchasePermissionyA2CmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO21notPurchasePermissionyA2CmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "notFindProduct",
+            "printedName": "notFindProduct",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FunnyIAPError",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError",
+                    "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO14notFindProductyA2CmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO14notFindProductyA2CmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseFailure",
+            "printedName": "purchaseFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FunnyIAPError",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError",
+                    "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO15purchaseFailureyA2CmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO15purchaseFailureyA2CmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "isFunnySDKError",
+            "printedName": "isFunnySDKError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> (FunnySDK.FunnySDKError) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FunnySDK.FunnySDKError) -> FunnyIAPSDK.FunnyIAPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnySDKError",
+                        "printedName": "FunnySDK.FunnySDKError",
+                        "usr": "s:8FunnySDK0A8SDKErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO02isA8SDKErroryAC0A3SDK0aE0OcACmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO02isA8SDKErroryAC0A3SDK0aE0OcACmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "createOrderFailure",
+            "printedName": "createOrderFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> (Swift.Int, Swift.String) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> FunnyIAPSDK.FunnyIAPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO18createOrderFailureyACSi_SStcACmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO18createOrderFailureyACSi_SStcACmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "verifyOrderFailure",
+            "printedName": "verifyOrderFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> (Swift.Int, Swift.String) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> FunnyIAPSDK.FunnyIAPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO18verifyOrderFailureyACSi_SStcACmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO18verifyOrderFailureyACSi_SStcACmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "untypedError",
+            "printedName": "untypedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunnyIAPSDK.FunnyIAPError.Type) -> (Swift.Error) -> FunnyIAPSDK.FunnyIAPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> FunnyIAPSDK.FunnyIAPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunnyIAPSDK.FunnyIAPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FunnyIAPError",
+                        "printedName": "FunnyIAPSDK.FunnyIAPError",
+                        "usr": "s:11FunnyIAPSDK0A8IAPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO12untypedErroryACs0E0_p_tcACmF",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO12untypedErroryACs0E0_p_tcACmF",
+            "moduleName": "FunnyIAPSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO16errorDescriptionSSSgvp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK0A8IAPErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO16errorDescriptionSSSgvg",
+                "moduleName": "FunnyIAPSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FunnyIAPSDK0A8IAPErrorO9errorCodeSivp",
+            "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO9errorCodeSivp",
+            "moduleName": "FunnyIAPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FunnyIAPSDK0A8IAPErrorO9errorCodeSivg",
+                "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO9errorCodeSivg",
+                "moduleName": "FunnyIAPSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11FunnyIAPSDK0A8IAPErrorO",
+        "mangledName": "$s11FunnyIAPSDK0A8IAPErrorO",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "FIAPUnityCall",
+        "printedName": "FIAPUnityCall(jsonObject:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)FIAPUnityCallWithJsonObject:",
+        "mangledName": "$s11FunnyIAPSDK13FIAPUnityCall10jsonObjectySpys4Int8VG_tF",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "FIAPUnityCallAndReturn",
+        "printedName": "FIAPUnityCallAndReturn(jsonObject:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)FIAPUnityCallAndReturnWithJsonObject:",
+        "mangledName": "$s11FunnyIAPSDK22FIAPUnityCallAndReturn10jsonObjectSpys4Int8VGAF_tF",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "FIAPCallAndBack",
+        "printedName": "FIAPCallAndBack(jsonObject:handler:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.UnsafeMutablePointer<Swift.Int8>, Swift.Bool, Swift.UnsafeMutablePointer<Swift.Int8>) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.UnsafeMutablePointer<Swift.Int8>, Swift.Bool, Swift.UnsafeMutablePointer<Swift.Int8>)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)FIAPCallAndBackWithJsonObject:handler:",
+        "mangledName": "$s11FunnyIAPSDK15FIAPCallAndBack10jsonObject7handlerySpys4Int8VG_yAG_SbAGtXCtF",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "IAPNotificationCenterActive",
+        "printedName": "IAPNotificationCenterActive(message:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.UnsafeMutablePointer<Swift.Int8>, Swift.UnsafeMutablePointer<Swift.Int8>) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.UnsafeMutablePointer<Swift.Int8>, Swift.UnsafeMutablePointer<Swift.Int8>)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)IAPNotificationCenterActiveWithMessage:",
+        "mangledName": "$s11FunnyIAPSDK27IAPNotificationCenterActive7messageyySpys4Int8VG_AFtXC_tF",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "FunnyIAPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SKProduct",
+        "printedName": "SKProduct",
+        "declKind": "Class",
+        "usr": "c:objc(cs)SKProduct",
+        "moduleName": "StoreKit",
+        "isOpen": true,
+        "intro_iOS": "3.0",
+        "objc_name": "SKProduct",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SKPaymentTransaction",
+        "printedName": "SKPaymentTransaction",
+        "declKind": "Class",
+        "usr": "c:objc(cs)SKPaymentTransaction",
+        "moduleName": "StoreKit",
+        "isOpen": true,
+        "intro_iOS": "3.0",
+        "objc_name": "SKPaymentTransaction",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Order\/OrderService.swift",
+      "kind": "StringLiteral",
+      "offset": 1293,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Order\/OrderService.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 41,
+      "value": "\"无法获取到解析后的订单数据\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "Dictionary",
+      "offset": 241,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "Array",
+      "offset": 1168,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "Array",
+      "offset": 1886,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 1917,
+      "length": 28,
+      "value": "\"fetch product list finish.\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2034,
+      "length": 36,
+      "value": "\"无效的商品标识 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2069,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2159,
+      "length": 109,
+      "value": "\"name = \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 1,
+      "value": "\", price = \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 1,
+      "value": "\", currency = \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/ProductService.swift",
+      "kind": "StringLiteral",
+      "offset": 2266,
+      "length": 2,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/Product.swift",
+      "kind": "IntegerLiteral",
+      "offset": 713,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Product\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "Array",
+      "offset": 2182,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4153,
+      "length": 20,
+      "value": "\"Invalid JSON value\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "Array",
+      "offset": 5614,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/JSONCodingKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5744,
+      "length": 20,
+      "value": "\"Invalid JSON value\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/Crypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/Crypto.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/Crypto.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/Crypto.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 19,
+      "value": "\"\/pay\/verify_order\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 543,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 14,
+      "value": "\"pay_category\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 9,
+      "value": "\"receipt\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 7,
+      "value": "\"tx_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostVerifyOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 9,
+      "value": "\"user_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/FunnyOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/FunnyOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/IAPReceipt.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/IAPReceipt.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 10,
+      "value": "\"order_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 29,
+      "value": "\"com.sofunny.funnyiap.orders\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "Array",
+      "offset": 484,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 79,
+      "value": "\"支付凭据记录数据反序列化失败。 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 58,
+      "value": "\"无法保存收据记录 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Store\/ReceiptDataStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 44,
+      "value": "\"已存在相同订单记录，无法添加\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 7,
+      "value": "\"nonce\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 789,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/RequestAdapter\/OrderCreateAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 6,
+      "value": "\"sign\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "Dictionary",
+      "offset": 331,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 68,
+      "value": "\"交易失败处理 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 2245,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 2251,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 2689,
+      "length": 48,
+      "value": "\"支付失败 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 2736,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3403,
+      "length": 90,
+      "value": "\"后台验证订单成功 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3444,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3486,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3597,
+      "length": 90,
+      "value": "\"遗留订单验证成功 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3680,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3686,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3878,
+      "length": 127,
+      "value": "\"该交易编号 \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3934,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3941,
+      "length": 30,
+      "value": "\" 验证失败，待下次验证。\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4004,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4487,
+      "length": 86,
+      "value": "\"[IAP] 支付进行中，请等待... = \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4566,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4572,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4681,
+      "length": 110,
+      "value": "\"[IAP] 支付完成 - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4730,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4736,
+      "length": 1,
+      "value": "\" | tid = \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4784,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4790,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 5070,
+      "length": 79,
+      "value": "\"[IAP] 非消耗型商品，此项为恢复购买漏单处理。(暂未开发)\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 5301,
+      "length": 41,
+      "value": "\"[IAP] 等待外部其他操作确认中\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 5415,
+      "length": 20,
+      "value": "\"[IAP] 支付失败\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
+      "kind": "StringLiteral",
+      "offset": 5589,
+      "length": 20,
+      "value": "\"[IAP] 未知处理\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 500,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 63,
+      "value": "\"商品预加载完成 - 共获取到 \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 9,
+      "value": "\" 个商品\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
+      "length": 77,
+      "value": "\"已有一项交易正在进行中，请等待完成后再发起新的交易\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1433,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1632,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1839,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/InAppPurchaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3224,
+      "length": 29,
+      "value": "\"内购模块初始化完成\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 44,
+      "value": "\"Post Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/IAPProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 848,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/IAPProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/IAPProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Model\/IAPProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 1482,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/Model\/IAPResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/Model\/IAPResult.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 9,
+      "value": "\"retcode\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/Model\/IAPResult.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 9,
+      "value": "\"retcode\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/Model\/IAPResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 800,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 19,
+      "value": "\"\/pay\/create_order\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 14,
+      "value": "\"pay_category\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 10,
+      "value": "\"game_uid\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 15,
+      "value": "\"game_nickname\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 965,
+      "length": 11,
+      "value": "\"game_area\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1008,
+      "length": 12,
+      "value": "\"product_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 14,
+      "value": "\"product_name\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1095,
+      "length": 10,
+      "value": "\"quantity\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 7,
+      "value": "\"money\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 7,
+      "value": "\"extra\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 9,
+      "value": "\"user_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Request\/PostCreateOrderRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallReturn.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 66,
+      "value": "\"[iOS] - callAndReturn - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallReturn.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallReturn.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallReturn.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 6,
+      "value": "\"None\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallReturn.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallReturn.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 38,
+      "value": "\"当前未登录，请登录后再试\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 17,
+      "value": "\"已取消购买\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 936,
+      "length": 38,
+      "value": "\"当前设备无法使用内购服务\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1024,
+      "length": 23,
+      "value": "\"未查询到该商品\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 32,
+      "value": "\"购买失败，请稍后再试\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
+      "length": 54,
+      "value": "\"发生错误。\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 33,
+      "value": "\"订单创建失败：\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1356,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 32,
+      "value": "\"订单验证失败: \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1695,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1736,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1780,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1829,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1869,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2028,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Error\/FunnyIAPError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2072,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge.swift",
+      "kind": "Dictionary",
+      "offset": 460,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 64,
+      "value": "\"[iOS] - callAndBack - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 16,
+      "value": "\"ExecutePayment\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 18,
+      "value": "\"FetchProductList\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 79,
+      "value": "\"未找到相关服务[\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 1,
+      "value": "\"]，请检查 SDK 是否需要更新\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 7,
+      "value": "\"order\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 56,
+      "value": "\"ExecutePayment - Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1545,
+      "length": 5,
+      "value": "\"ids\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1816,
+      "length": 78,
+      "value": "\"{\"code\":\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1845,
+      "length": 1,
+      "value": "\", \"message\":\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
+      "length": 1,
+      "value": "\"\"}\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 62,
+      "value": "\"{\"code\":-1, \"message\":\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2084,
+      "length": 1,
+      "value": "\"\"}\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2299,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2572,
+      "length": 33,
+      "value": "\"successCallback - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2604,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2714,
+      "length": 57,
+      "value": "\"successCallback - Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2770,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2909,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+CallAndBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 57,
+      "value": "\"[iOS] - call - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 20,
+      "value": "\"PreLoadProductInfo\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 18,
+      "value": "\"CheckMissReceipt\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 79,
+      "value": "\"未找到相关服务[\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 1,
+      "value": "\"]，请检查 SDK 是否需要更新\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 10,
+      "value": "\"products\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 60,
+      "value": "\"PreLoadProductInfo - Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/IAPBridge+Call.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 28,
+      "value": "\"com.funny.iap.miss.receipt\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 27,
+      "value": "\"FIAP_Call - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 58,
+      "value": "\"FIAP_Call - Decode Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1129,
+      "length": 36,
+      "value": "\"FIAP_CallAndReturn - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1484,
+      "length": 67,
+      "value": "\"FIAP_CallAndReturn - Decode Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 34,
+      "value": "\"FIAP_CallAndBack - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 2157,
+      "length": 65,
+      "value": "\"FIAP_CallAndBack - Decode Error - \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 2221,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2592,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Bridge\/UnityEngineBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2610,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/IAPLog.swift",
+      "kind": "StringLiteral",
+      "offset": 486,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/IAPLog.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 32,
+      "value": "\"[FunnyIAP] - [Warning] \""
+    },
+    {
+      "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/Utils\/IAPLog.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "\" \n\""
+    }
+  ]
 }

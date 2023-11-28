@@ -12,7 +12,9 @@ namespace SoFunny.FunnySDK.IAP
         /// <summary>
         /// 获取商品列表信息
         /// </summary>
-        /// <param name="onCompleteHandler"></param>
+        /// <param name="productIdArray">商品编号列表</param>
+        /// <param name="onSuccessHandler">获取商品列表成功</param>
+        /// <param name="onFailureHandler">获取商品列表失败</param>
         void FetchProductList(string[] productIdArray, Action<IAPProduct[]> onSuccessHandler, Action<FunnyIAPError> onFailureHandler);
 
         /// <summary>

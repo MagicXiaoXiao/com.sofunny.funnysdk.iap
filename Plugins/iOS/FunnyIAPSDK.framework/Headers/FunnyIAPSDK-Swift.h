@@ -282,7 +282,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-
 SWIFT_EXTERN void FIAP_CallAndBack(char * _Nonnull jsonObject, void (* _Nonnull handler)(char * _Nonnull, BOOL, char * _Nonnull));
 
 
@@ -302,6 +301,15 @@ SWIFT_CLASS("_TtC11FunnyIAPSDK20InAppPurchaseManager")
 @end
 
 
+
+
+
+SWIFT_CLASS("_TtC11FunnyIAPSDK20_FunnyIAPInitializer")
+@interface _FunnyIAPInitializer : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (void)registerComponent;
+@end
 
 #endif
 #if defined(__cplusplus)

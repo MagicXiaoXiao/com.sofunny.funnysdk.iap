@@ -12,43 +12,53 @@ namespace SoFunny.FunnySDK.IAP
         /// <summary>
         /// 商品编号（谷歌内购则为 SKU，苹果内购则为 ProductID）
         /// </summary>
+        public string Id => _id;
+
         [JsonProperty("id")]
-        public string Id { get; internal set; }
+        private string _id;
 
         /// <summary>
         /// 商品名称
         /// </summary>
+        public string Name => _name;
+
         [JsonProperty("name")]
-        public string Name { get; internal set; }
+        private string _name;
 
         /// <summary>
         /// 商品描述
         /// </summary>
+        public string Description => _description;
+
         [JsonProperty("description")]
-        public string Description { get; internal set; }
+        private string _description;
 
         /// <summary>
         /// 商品价格
         /// </summary>
+        public string Price => _price;
+
         [JsonProperty("price")]
-        public string Price { get; internal set; }
+        private string _price;
 
         /// <summary>
         /// 商品显示价格 (包含货币符号)
         /// </summary>
+        public string DisplayPrice => _displayPrice;
+
         [JsonProperty("displayPrice")]
-        public string DisplayPrice { get; internal set; }
+        private string _displayPrice;
 
         /// <summary>
-        /// 货币符号 如: $ 或 ¥ 等，根据地区变化
+        /// 货币代码 如: CNY 或 USD 等，根据地区变化
         /// </summary>
-        [JsonProperty("symbol")]
-        public string CurrencySymbol { get; internal set; }
+        public string CurrencyCode => _currencyCode;
 
-        internal IAPProduct(string id)
-        {
-            Id = id;
-        }
+        [JsonProperty("currencyCode")]
+        private string _currencyCode;
+
+
+        internal IAPProduct() { }
 
         internal IAPProduct Clone()
         {

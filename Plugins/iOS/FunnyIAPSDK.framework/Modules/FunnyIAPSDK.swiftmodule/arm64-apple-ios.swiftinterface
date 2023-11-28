@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FunnyIAPSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import CoreGraphics
+import Foundation
+@_exported import FunnyIAPSDK
+import FunnySDK
+import StoreKit
+import Swift
+import _Concurrency
+import _StringProcessing
+public struct IAPPayer : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let info: Swift.String
+  public init(_ id: Swift.String, _ name: Swift.String, _ info: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct IAPOrder : Swift.Codable {
+  public let product: FunnyIAPSDK.IAPProduct
+  public let payer: FunnyIAPSDK.IAPPayer
+  public let payment: Swift.Int
+  public let quantity: Swift.Int
+  public let extra: Swift.String?
+  public init(_ product: FunnyIAPSDK.IAPProduct, _ payer: FunnyIAPSDK.IAPPayer, _ payment: Swift.Int, _ quantity: Swift.Int, _ extra: Swift.String? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class _FunnyIAPInitializer : ObjectiveC.NSObject {
+  @objc public static func registerComponent()
+  @objc deinit
+}
+public struct IAPReceipt : Swift.Codable {
+  public let id: Swift.String
+  public var transactionIdentifier: Swift.String? {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class InAppPurchaseManager : ObjectiveC.NSObject {
+  public static let `default`: FunnyIAPSDK.InAppPurchaseManager
+  final public func fetch(_ productIdSet: Swift.Set<Swift.String>)
+  final public func execute(order: FunnyIAPSDK.IAPOrder, completionHandler: @escaping (Swift.Result<FunnyIAPSDK.IAPReceipt, FunnyIAPSDK.FunnyIAPError>) -> Swift.Void)
+  final public func fetchProductList(ids: [Swift.String], completionHandler: @escaping ([FunnyIAPSDK.IAPProduct]) -> Swift.Void)
+  final public func getMissReceipt() -> [FunnyIAPSDK.IAPReceipt]
+  @objc deinit
+}
+extension FunnyIAPSDK.InAppPurchaseManager {
+  final public func initializer()
+}
+public struct IAPProduct : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let description: Swift.String
+  public let price: Swift.String
+  public let displayPrice: Swift.String
+  public let currencyCode: Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum FunnyIAPError : Swift.Error {
+  case notLogIn
+  case cancelledPayment
+  case notPurchasePermission
+  case notFindProduct
+  case purchaseFailure
+  case isFunnySDKError(FunnySDK.FunnySDKError)
+  case createOrderFailure(code: Swift.Int, message: Swift.String)
+  case verifyOrderFailure(code: Swift.Int, message: Swift.String)
+  case untypedError(error: any Swift.Error)
+}
+extension FunnyIAPSDK.FunnyIAPError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension FunnyIAPSDK.FunnyIAPError : Foundation.CustomNSError {
+  public var errorCode: Swift.Int {
+    get
+  }
+}
+public typealias iOSIAPServiceHandler = @convention(c) (Swift.UnsafeMutablePointer<Swift.CChar>, Swift.Bool, Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.Void
+public typealias FIAPNotificationMessage = @convention(c) (Swift.UnsafeMutablePointer<Swift.CChar>, Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.Void
+@_cdecl("FIAP_Call")
+public func FIAPUnityCall(jsonObject: Swift.UnsafeMutablePointer<Swift.CChar>)
+@_cdecl("FIAP_CallAndReturn")
+public func FIAPUnityCallAndReturn(jsonObject: Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.UnsafeMutablePointer<Swift.CChar>
+@_cdecl("FIAP_CallAndBack")
+public func FIAPCallAndBack(jsonObject: Swift.UnsafeMutablePointer<Swift.CChar>, handler: @convention(c) (Swift.UnsafeMutablePointer<Swift.CChar>, Swift.Bool, Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.Void)
+@_cdecl("FIAP_NotificationCenter")
+public func IAPNotificationCenterActive(message: @convention(c) (Swift.UnsafeMutablePointer<Swift.CChar>, Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.Void)
+extension FunnyIAPSDK.InAppPurchaseManager : FunnySDK.FunnyModule {}
