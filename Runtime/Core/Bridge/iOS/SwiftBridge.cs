@@ -19,6 +19,7 @@ namespace SoFunny.FunnySDK.IAP
              * 故在此主动调用一次空构造。
              */
             new IAPReceipt();
+            new IAPProduct();
         }
 
         public void CallNavtive(string method)

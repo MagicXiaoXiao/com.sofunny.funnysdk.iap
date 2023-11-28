@@ -85,9 +85,15 @@ namespace SoFunny.FunnySDK.IAP
         /// <param name="quantity">购买数量，默认为 1 </param>
         /// <param name="extra">附加说明，最多 150 字符</param>
         /// <returns></returns>
-        public static IAPOrder Create(IAPProduct product, IAPPayer payer, PaymentType payment, int quantity = 1, string extra = "")
+        public static IAPOrder Create(IAPProduct product, IAPPayer payer, int quantity = 1, string extra = "")
         {
-            return new IAPOrder(product.Clone(), payer.Clone(), payment, quantity, extra);
+            PaymentType type = PaymentType.GooglePay;
+
+#if UNITY_IOS
+            type = PaymentType.AppleInAppPurchase;
+#endif
+
+            return new IAPOrder(product.Clone(), payer.Clone(), type, quantity, extra);
         }
     }
 }
