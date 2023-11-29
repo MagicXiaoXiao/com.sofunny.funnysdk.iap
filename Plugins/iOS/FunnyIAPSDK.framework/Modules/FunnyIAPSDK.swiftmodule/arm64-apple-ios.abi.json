@@ -3534,84 +3534,84 @@
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4487,
+      "offset": 4528,
       "length": 86,
       "value": "\"[IAP] 支付进行中，请等待... = \""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4566,
+      "offset": 4607,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4572,
+      "offset": 4613,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4681,
+      "offset": 4722,
       "length": 110,
       "value": "\"[IAP] 支付完成 - \""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4730,
+      "offset": 4771,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4736,
+      "offset": 4777,
       "length": 1,
       "value": "\" | tid = \""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4784,
+      "offset": 4825,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 4790,
+      "offset": 4831,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 5070,
+      "offset": 5111,
       "length": 79,
       "value": "\"[IAP] 非消耗型商品，此项为恢复购买漏单处理。(暂未开发)\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 5301,
+      "offset": 5342,
       "length": 41,
       "value": "\"[IAP] 等待外部其他操作确认中\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 5415,
+      "offset": 5456,
       "length": 20,
       "value": "\"[IAP] 支付失败\""
     },
     {
       "filePath": "\/Users\/cxb\/Desktop\/Work\/funny-sdk-ios-work\/FunnySDK\/FunnyIAPSDK\/InAppPurchase\/Transaction\/TransactionService.swift",
       "kind": "StringLiteral",
-      "offset": 5589,
+      "offset": 5630,
       "length": 20,
       "value": "\"[IAP] 未知处理\""
     },
