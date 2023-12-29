@@ -1,5 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
+using UnityEngine.Scripting;
 
 namespace SoFunny.FunnySDK.IAP
 {
@@ -57,7 +58,7 @@ namespace SoFunny.FunnySDK.IAP
         [JsonProperty("currencyCode")]
         private string _currencyCode;
 
-
+        [JsonConstructor, Preserve]
         internal IAPProduct() { }
 
         internal IAPProduct Clone()
