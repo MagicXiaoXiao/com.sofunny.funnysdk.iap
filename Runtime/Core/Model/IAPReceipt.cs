@@ -1,5 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
+using UnityEngine.Scripting;
 
 namespace SoFunny.FunnySDK.IAP
 {
@@ -15,7 +16,7 @@ namespace SoFunny.FunnySDK.IAP
         [JsonProperty("order_id")]
         public string Id { get; private set; }
 
-        [JsonConstructor]
+        [JsonConstructor, Preserve]
         internal IAPReceipt(string receiptId = "")
         {
             Id = receiptId;
